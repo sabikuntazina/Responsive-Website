@@ -118,6 +118,7 @@ header{
     letter-spacing: 0.2em;
     padding-bottom: 20px;
     font-size: 30px;
+    text-align: center;
 }
 .first-section-container{
     display: grid;
@@ -149,16 +150,63 @@ header{
     transform: scale(1.02);
     background-color: rgba(255, 255, 255, 0.824);
 }
+/* first section end  */
+#second-section{
+    background-color:rgb(46, 46, 82); 
+   padding: 30px 0;
+
+}
+.smart-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 0 150px;
+ 
+}
+.left-smart-area-img{
+
+}
+
+.right-smart-area h2{
+    padding: 15px 0;
+}
+.right-smart-area a{
+    text-decoration: none;
+    color: black;
+    background-color:bisque;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 22px;
+
+}
+.right-smart-area a:hover{
+    background-color: rgba(255, 228, 196, 0.811);
+}
 @media only screen and (max-width:688px)
 {
+    /* first section start  */
     .first-section-container{
     grid-template-columns: repeat(1,1fr);
     grid-gap: 10px;
     width: 100%;
-}
+    }
     .single-service-box{
-   margin: 0 30px;
-}
+         margin: 0 30px;
+    }
+    /* second section start  */
+   
+    .smart-area{
+        display: block;
+    }
+    .left-smart-area-img{
+        width: 100%;
+    }
+    .left-smart-area-img img{
+          margin-left: -50px;
+    }
 }
 @media only screen and (min-width:689px) and (max-width:1099px)
 {
@@ -167,5 +215,27 @@ header{
     grid-gap: 20px;
     width: 100%;
 }
+        /* second section start  */
+    
+    .smart-area{
+        display: block;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .left-smart-area-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .right-smart-area h4{
+        padding: 30px 0 10px 0;
+    text-align: center;
+    }
+    .right-smart-area h2{
+    text-align: center;
+}
+
     
 }
