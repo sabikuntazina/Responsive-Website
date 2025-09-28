@@ -372,12 +372,74 @@ form p{
 .single-sixth-section-box p{
     padding: 10px 0;
 }
+/* seventh section start  */
+#seventh-section{
+    padding: 80px 0;
+}
+.seventh-section-parent{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    
+}
+.seventh-section-left p{
+    margin: 20px 0;
+}
+.seventh-section-left ul li{
+    list-style-position: inside;
 
+}
+.seventh-section-right{
+    width: 100%;
+    margin-left: 20px;
+}
+.seventh-section-right img{
+    width: 100%;
+}
 
+/* footer section start  */
+footer{
+    background-color: rgb(14, 14, 72);
+    color: white;
+    padding: 50px 0;
+}
+.footer-section-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 50px;
+}
+.single-footer h3{
+    margin-bottom: 20px;
+    letter-spacing: 0.1em;
+}
+.single-footer span{
+    color: yellow;
+}
+.single-footer{
+    width: 100%;
+}
+.single-footer2 a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding-top: 10px;
 
-
-
-
+}
+.single-footer3 a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.228);
+    border-radius: 5px;
+}
 
 
 
@@ -446,6 +508,29 @@ form{
 .first-single-sixth-section-box{
    text-align: center;
    line-height: 1.3;
+}
+
+/* seventh section start  */
+.seventh-section-parent{
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 10px;
+}
+.seventh-section-right{
+    margin-top: 30px;
+}
+/* footer start  */
+.footer-section-parent{
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 10px;
+    text-align: center;
+}
+.single-footer{
+    margin-top: 30px;
+    width: 90%;
 }
 
 }
@@ -517,5 +602,27 @@ form{
 .first-single-sixth-section-box{
    text-align: center;
    line-height: 1.3;
+}
+/* seventh section start  */
+.seventh-section-parent{
+    display: block;
+    margin-left: 60px;
+    margin-right: 60px;
+    gap: 30px;
+}
+.seventh-section-right{
+    margin-top: 40px;
+}
+/* footer start  */
+.footer-section-parent{
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+    gap: 10px;
+    text-align: center;
+}
+.single-footer{
+    margin-top: 30px;
+    width: 90%;
 }
 }
